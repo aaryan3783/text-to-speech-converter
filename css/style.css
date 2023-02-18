@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(177, 122, 229);
+
+}
+.wrapper{
+    position:absolute;
+    top: 10%;
+    left: 40%;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    /* margin-block: 100px; */
+}
+header{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+}
+
+form{
+    /* border: 2px solid red; */
+    margin-top: 10px;
+}
+label{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+textarea{
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: large;
+    margin-bottom: 10px;
+    color: rgb(227, 140, 58);
+}
+
+#voice{
+    /* display: none; */
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    margin-bottom: 10px;
+    background-color:rgb(6, 145, 87);
+    color: white;
+}
+button{
+    margin-block: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(142, 193, 193);
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    color: white;
+    cursor: pointer;
+}
